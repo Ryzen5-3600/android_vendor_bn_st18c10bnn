@@ -241,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c10bnn/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/bn/st18c10bnn/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service-mediatek \
     vendor/bn/st18c10bnn/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
-    vendor/bn/st18c10bnn/proprietary/vendor/bin/hw/android.hardware.broadcastradio@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.broadcastradio@1.1-service \
     vendor/bn/st18c10bnn/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/bn/st18c10bnn/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
     vendor/bn/st18c10bnn/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
@@ -373,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/gatekeeper.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/gralloc.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/hwcomposer.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8167.so \
-    vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/keystore.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/lights.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/memtrack.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt8167.so \
@@ -590,7 +588,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/gatekeeper.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/gralloc.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/hwcomposer.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt8167.so \
-    vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/keystore.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/lights.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt8167.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/memtrack.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt8167.so \
@@ -765,4 +762,10 @@ PRODUCT_COPY_FILES += \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.radio@2.0_vendor.so \
     vendor/bn/st18c10bnn/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so \
-    vendor/bn/st18c10bnn/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so
+    vendor/bn/st18c10bnn/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so \
+    vendor/bn/st18c10bnn/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
+    vendor/bn/st18c10bnn/proprietary/etc/aee-config:system/etc/aee-config \
+    vendor/bn/st18c10bnn/proprietary/vendor/lib/hw/keystore.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt8167.so \
+    vendor/bn/st18c10bnn/proprietary/vendor/lib64/hw/keystore.mt8167.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mt8167.so \
+    
+
